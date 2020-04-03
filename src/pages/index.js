@@ -41,10 +41,7 @@ const IndexPage = () => (
               <h4 className="font-bold mb-2">
                 To get straight to the content...
               </h4>
-              <Link
-                className="font-body text-blue-700 underline"
-                to="/get-started"
-              >
+              <Link className="font-body text-blue-700 underline" to="/blog">
                 Dive in
               </Link>
             </div>
