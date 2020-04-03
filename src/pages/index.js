@@ -11,24 +11,47 @@ const IndexPage = () => (
       <h3 className="font-black text-4xl mb-8">
         So you've cooked a few recipes...
       </h3>
-      <p className="leading-loose text-lg mb-4">
-        Some probably came out pretty good. Some you probably
-        angrily/shamefully/resignedly ate in the kitchen before anyone else
-        could see.
+      <p className="leading-relaxed text-base mb-4">
+        Some probably came out pretty good. Some you probably shame ate in the
+        kitchen before anyone else could see. The most frustrating part for me
+        was never knowing where the bad ones went wrong. I followed the recipe,
+        but I didn't have the fundamentals! I learned as many as I could over
+        the last couple years in my tiny apartment kitchen and now I'm sharing
+        what I learned to help make your journey a little less painful.
       </p>
-      <p className="leading-loose text-lg mb-4">
-        The most frustrating part for me was never knowing why the bad ones
-        turned out bad. I followed the recipe! I make pretty good food! Where
-        did it all go wrong?
-      </p>
-      <p className="leading-loose text-lg">
-        I didn't have the fundamentals. I had been making recipes for a couple
-        years but didn't really feel like I knew how to cook. Never was this
-        more clear to me than when I read our goddess, the one and only Samin
-        Nosrat's Salt, Fat, Acid, Heat.
-      </p>
+      <div className="flex justify-around my-12">
+        <div className="flex w-5/12 align-center rounded overflow-hidden shadow-lg">
+          <div>
+            <img src="https://res.cloudinary.com/duor0bzmo/image/upload/c_scale,q_100,w_512/v1585866139/mikestinykitchen/breakfast-sandwich.jpg" />
+            <div className="p-4">
+              <h4 className="font-bold mb-2">For an intro to the blog...</h4>
+              <Link
+                className="font-body text-blue-700 underline"
+                to="/get-started"
+              >
+                Get started
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="flex w-5/12 align-center rounded overflow-hidden shadow-lg">
+          <div>
+            <img src="https://res.cloudinary.com/duor0bzmo/image/upload/c_scale,w_512/a_90/v1585866153/mikestinykitchen/cinnamon-rolls.jpg" />
+            <div className="p-4">
+              <h4 className="font-bold mb-2">
+                To get straight to the content...
+              </h4>
+              <Link
+                className="font-body text-blue-700 underline"
+                to="/get-started"
+              >
+                Dive in
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <Link to="/blog">Blog</Link>
   </Layout>
 )
 
