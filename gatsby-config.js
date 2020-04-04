@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Mike's Tiny Kitchen`,
+    title: `The Seasoned Skillet`,
     description: `Learn how to be a better home cook.`,
     author: `Mike Thomson`,
   },
@@ -27,7 +27,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: ["merriweather", "montserrat:300,400,400i,700,900"],
+        fonts: [
+          "merriweather:300,400,400i,700",
+          "montserrat:300,400,400i,700,900",
+        ],
       },
     },
     {
