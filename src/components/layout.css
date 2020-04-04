@@ -1,6 +1,10 @@
 @tailwind base;
 
+html {
+}
+
 h1 {
+  color: theme("colors.gray.900");
   font-family: theme("fontFamily.display");
 }
 
@@ -14,6 +18,12 @@ h3 {
 
 p {
   font-family: theme("fontFamily.body");
+}
+
+.body-font {
+  color: theme("colors.gray.800");
+  font-weight: 300;
+  @apply leading-loose text-base mb-4;
 }
 
 @tailwind components;
