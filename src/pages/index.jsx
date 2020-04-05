@@ -9,10 +9,8 @@ import { BREAKFAST_SANDWICH_IMG, CINNAMON_ROLL_IMG } from "../constants/images"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="max-w-2xl px-6 md:px-0 mx-auto">
-      <h3 className="font-black text-4xl mb-8">
-        So you've cooked a few recipes...
-      </h3>
+    <div>
+      <h3 className="title-font">So you've cooked a few recipes...</h3>
       <p className="body-font">
         Some probably came out pretty good. Some you probably shame ate in the
         kitchen before anyone else could see. The most frustrating part for me

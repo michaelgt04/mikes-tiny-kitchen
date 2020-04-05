@@ -20,6 +20,15 @@ p {
   font-family: theme("fontFamily.body");
 }
 
+p a {
+  @apply underline;
+}
+
+.title-font {
+  color: theme("colors.gray.900");
+  @apply font-black text-4xl mb-8;
+}
+
 .body-font {
   color: theme("colors.gray.800");
   font-weight: 300;
