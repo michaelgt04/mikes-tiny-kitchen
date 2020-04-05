@@ -21,10 +21,10 @@ const IndexPage = () => (
         the last couple years in my tiny apartment kitchen and now I'm sharing
         what I learned to help make your journey a little less painful.
       </p>
-      <div className="flex justify-around my-12">
+      <div className="flex flex-wrap md:flex-no-wrap justify-around my-12">
         <button
           onClick={() => navigate("/about")}
-          className="flex w-5/12 align-center rounded overflow-hidden shadow-lg"
+          className="flex w-100 md:w-5/12 mb-4 md:mb-0 align-center rounded overflow-hidden shadow-lg"
         >
           <div>
             <img src={BREAKFAST_SANDWICH_IMG} alt="" />
@@ -35,7 +35,7 @@ const IndexPage = () => (
         </button>
         <button
           onClick={() => navigate("/blog")}
-          className="flex w-5/12 align-center rounded overflow-hidden shadow-lg"
+          className="flex w-100 md:w-5/12 align-center rounded overflow-hidden shadow-lg"
         >
           <div>
             <img src={CINNAMON_ROLL_IMG} alt="" />
