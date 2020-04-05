@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container m-auto">
         <main>{children}</main>
-        <footer className="max-w-2xl mx-auto font-body">
+        <footer className="max-w-2xl mx-auto px-6 md:px-0 body-font font-body">
           © {new Date().getFullYear()} Mike Thomson
         </footer>
       </div>
