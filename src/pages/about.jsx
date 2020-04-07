@@ -8,16 +8,10 @@ const About = () => (
     <SEO title="About" />
     <h1 className="title-font">About</h1>
     <p className="body-font">
-      This will not be a site full of recipes. There are plenty of those out
-      there. This is a place to learn a little more about the fundamentals of
-      cooking from a fellow home cook and make that mythical jump to cooking
-      without a recipe.
-    </p>
-    <p className="body-font">
-      For a while, I followed recipes as closely as I could, hoping that my
-      absolute fidelity to them would make me a good cook. I never knew why I
-      did what I did and even more importantly, I never knew what I did wrong
-      when dishes didn't come out the way I hoped they would.
+      When I first started out, I followed recipes as closely as I could, hoping
+      that my absolute fidelity to them would make me a good cook. I never knew
+      why I did what I did and even more importantly, I never knew what I did
+      wrong when dishes didn't come out the way I hoped they would.
     </p>
     <p className="body-font">
       About two years into my cooking journey, I came across{" "}

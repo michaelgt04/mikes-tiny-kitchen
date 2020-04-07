@@ -14,33 +14,25 @@ const IndexPage = () => (
       <p className="body-font">
         Some probably came out pretty good. Some you probably shame ate in the
         kitchen before anyone else could see. The most frustrating part for me
-        was never knowing where the bad ones went wrong. I followed the recipe,
-        but I didn't have the fundamentals! I learned as many as I could over
-        the last couple years in my tiny apartment kitchen and now I'm sharing
-        what I learned to help make your journey a little less painful.
+        was never knowing where the bad ones went wrong. I followed the
+        instructions, but I didn't have the fundamentals! Learning how to think
+        about ingredients and techniques improved my cooking far more than two
+        years of strict adherence to recipes.
       </p>
-      <div className="flex flex-wrap md:flex-no-wrap justify-around my-12">
-        <button
-          onClick={() => navigate("/about")}
-          className="flex w-100 md:w-5/12 mb-4 md:mb-0 align-center rounded overflow-hidden shadow-lg"
-        >
-          <div>
-            <img src={BREAKFAST_SANDWICH_IMG} alt="" />
-            <div className="p-4">
-              <h4 className="font-bold mb-2">For an intro to the blog...</h4>
-            </div>
-          </div>
-        </button>
+      <p className="body-font">
+        That's why this will not be a site full of recipes. There are plenty of
+        those out there. I learned as much as I could over the last couple years
+        in my tiny apartment kitchen and now I'm sharing what I found to help
+        make your journey a little less painful. This is a place to learn from a
+        fellow home cook and make that mythical jump to cooking without a
+        recipe.
+      </p>
+      <div className="flex justify-center mb-8">
         <button
           onClick={() => navigate("/blog")}
-          className="flex w-100 md:w-5/12 align-center rounded overflow-hidden shadow-lg"
+          className="rounded shadow-lg px-4 py-3 hover:shadow-xl bg-gray-900 text-white transition-shadow duration-100"
         >
-          <div>
-            <img src={CINNAMON_ROLL_IMG} alt="" />
-            <div className="p-4">
-              <h4 className="font-bold mb-2">Straight to the content...</h4>
-            </div>
-          </div>
+          <p>Get cooking</p>
         </button>
       </div>
     </div>
