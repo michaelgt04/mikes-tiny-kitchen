@@ -35,6 +35,46 @@ p a {
   @apply leading-loose text-base mb-4;
 }
 
+/* all default styles for the blog post display */
+.blog-post p {
+  color: theme("colors.gray.800");
+  font-weight: 300;
+  @apply leading-loose text-base mb-4;
+}
+
+.blog-post h2 {
+  color: theme("colors.gray.900");
+  @apply font-black text-3xl mb-24;
+}
+
+.blog-post h3 {
+  color: theme("colors.gray.900");
+  @apply font-black text-2xl mb-4;
+}
+
+.blog-post ul > li {
+  color: theme("colors.gray.900");
+  list-style: disc;
+  @apply font-bold text-base mb-1;
+}
+
+.blog-post ol > li {
+  color: theme("colors.gray.900");
+  list-style: decimal;
+  @apply font-bold text-base mb-1;
+}
+
+.blog-post .anchor.before {
+  top: 25%;
+}
+
+.blog-post img {
+  width: 90%;
+  max-height: 25rem;
+  object-fit: cover;
+  @apply mx-auto mb-10 rounded;
+}
+
 @tailwind components;
 
 @tailwind utilities;
