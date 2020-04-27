@@ -64,6 +64,10 @@ p a {
   @apply font-bold text-base mb-1;
 }
 
+.blog-post li > a {
+  @apply underline;
+}
+
 .blog-post .anchor.before {
   top: 25%;
 }
