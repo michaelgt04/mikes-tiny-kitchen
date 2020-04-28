@@ -80,3 +80,30 @@ of the oven, toss them with za'atar. On a plate, spoon down some ricotta cheese
 and spread it out, place a handful of squash rings on top of the ricotta, top
 with hazelnuts (or any nut you have). Throw some soft green herbs over the dish
 if you have them.
+
+- Cubed, roasted squash on crunchy rice
+
+Cube any type of winter squash and roast it. Season it with whatever spices you
+think would taste good. Take out some leftover rice. Melt a tablespoon of
+butter (or use a tablespoon of oil) in a nonstick skillet. Choose a smaller
+nonstick skillet so that you have a good balance of crispy and soft rice.
+Put all of your leftover rice in the pan. Using a
+spatula, really press the rice down into the bottom of the pan, almost like
+you're making a giant rice disc. Let it cook over medium heat until the rice on
+the bottom starts to crisp up and get brown. Scoop some of the crispy rice into
+a bowl, top with squash and whatever cooked protein you've got. Throw some herbs
+on there (this goes well with pretty much any herb). You
+can even put together a quick yogurt or mayonnaise based sauce to add some extra
+richness (I like mixing a teaspoon of smoked paprika with a couple tablespoons
+of mayo). Roasted peanuts also make a great topping.
+
+- Halved squash with butter
+
+This is simple, but really satisfying. Take a winter squash, halve it, and clean
+it out. Salt each half all over and put a tablespoon or two of butter in each cavity. Put
+whatever warm spices you want in there with the butter and add a teaspoon or so
+of brown sugar (depending on how sweet you want the final dish to be). You
+can also add some hard herbs (rosemary, thyme) to the cavity. Wrap it all in
+tin foil, roast at 375&#xb0;F until tender, about an hour. Take the foil off and
+eat the squash. Make sure you dip your squash bites in the beautiful butter
+sauce you just created in the cavity as you eat.
