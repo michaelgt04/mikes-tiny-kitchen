@@ -232,7 +232,7 @@ year's harvest, so you can be sure that they are fresh and will cook evenly. I
 have tried around a dozen of their different bean varieties and all have been
 delicious. Baer's doesn't have a web store, so you'll need to call or email them to
 buy, but the beans are absolutely worth it. Some of my favorite varieties they
-sell are the Yellow Eye, the Marfax and the Black Coco.
+sell are the Yellow Eye, the Marfax and the Black Coco (the ones pictured above).
 
 - [Rancho Gordo](https://www.ranchogordo.com/collections/heirloom-beans)
 
