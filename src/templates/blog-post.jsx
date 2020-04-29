@@ -8,14 +8,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
-  console.log(post)
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article className="px-4 md:px-0 blog-post">
+      <article className="blog-post">
         <header>
           <h1 className="title-font">{post.frontmatter.title}</h1>
         </header>

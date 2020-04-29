@@ -54,13 +54,11 @@ p a {
 
 .blog-post ul > li {
   color: theme("colors.gray.900");
-  list-style: disc;
   @apply font-bold text-base mb-1;
 }
 
 .blog-post ol > li {
   color: theme("colors.gray.900");
-  list-style: decimal;
   @apply font-bold text-base mb-1;
 }
 
