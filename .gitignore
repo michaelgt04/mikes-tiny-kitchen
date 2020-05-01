@@ -70,3 +70,6 @@ yarn-error.log
 
 # vim
 *.sw*
+
+# env files
+*.env*

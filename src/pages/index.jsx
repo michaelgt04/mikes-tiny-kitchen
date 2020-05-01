@@ -3,6 +3,7 @@ import { graphql, navigate } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Subscribe from "../components/subscribe"
 
 import { BREAKFAST_SANDWICH_IMG, CINNAMON_ROLL_IMG } from "../constants/images"
 

@@ -48,7 +48,7 @@ const Blog = props => {
         })}
       </div>
       <h2 className="font-black text-3xl mb-4">Techniques</h2>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap mb-4">
         {techniquePages.map(page => {
           const pageInfo = page.node
 

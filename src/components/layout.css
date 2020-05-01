@@ -24,6 +24,14 @@ p a {
   @apply underline;
 }
 
+button {
+  font-family: theme("fontFamily.body");
+}
+
+input {
+  font-family: theme("fontFamily.body");
+}
+
 .title-font {
   color: theme("colors.gray.900");
   @apply font-black text-4xl mb-8;
