@@ -13,7 +13,7 @@ const Subscribe = () => {
     if (!email) return setEmailError("Please enter an email.")
 
     const subscribeBody = {
-      api_key: process.env.CONVERT_KIT_PUB_KEY,
+      api_key: process.env.GATSBY_CONVERT_KIT_PUB_KEY,
       email,
     }
 
