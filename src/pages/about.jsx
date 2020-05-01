@@ -53,7 +53,7 @@ const About = () => (
       almost turned me off to baking altogether.
     </p>
     <p className="body-font">
-      I needed a resourece that would give me just enough to get started and
+      I needed a resource that would give me just enough to get started and
       build my skills, with places to look once I got comfortable enough to want
       learn more. That's what I'll be doing on this blog. All my articles will
       focus on either an ingredient or a technique. They'll tell you what to do
