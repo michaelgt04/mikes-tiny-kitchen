@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </header>
         <img src={post.frontmatter.fullImage} />
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <div className="max-w-md mx-auto my-8">
+        <div className="max-w-lg mx-auto my-12 bg-gray-100 p-6">
           <p className="body-font mb-4">
             If you enoyed this article and want to keep up to date on all the
             latest, enter your email below to hear about new articles!
@@ -33,28 +33,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       </article>
 
       <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
+        <ul className="flex mt-4 mb-8">
           <li>
-            {previous && (
-              <Link to={`/blog${previous.fields.slug}`} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={`/blog${next.fields.slug}`} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
+            <Link to="/blog" rel="prev">
+              ← Back to articles
+            </Link>
           </li>
         </ul>
       </nav>

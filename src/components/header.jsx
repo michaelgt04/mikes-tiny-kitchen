@@ -39,6 +39,13 @@ const Header = ({ siteTitle }) => (
       >
         Blog
       </Link>
+      <Link
+        activeClassName="underline"
+        className="ml-4 md:ml-6 font-display"
+        to="/subscribe"
+      >
+        Subscribe
+      </Link>
     </div>
   </header>
 )
