@@ -45,9 +45,9 @@ const Subscribe = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex max-w-md">
+      <div className="flex max-w-md flex-wrap sm:flex-no-wrap">
         <input
-          className="body-font border border-gray-300 rounded mr-4 px-4 py-2 mb-0 flex-grow"
+          className="body-font border border-gray-300 rounded mr-4 px-4 py-2 mb-2 flex-grow"
           name="email"
           onChange={handleEmailUpdate}
           placeholder="Your email"
@@ -55,7 +55,7 @@ const Subscribe = () => {
         />
         <button
           type="submit"
-          className="rounded shadow-lg px-4 py-3 hover:shadow-xl bg-gray-900 text-white transition-shadow duration-100"
+          className="rounded shadow-lg mb-2 px-4 py-3 hover:shadow-xl bg-gray-900 text-white transition-shadow duration-100"
         >
           Subscribe
         </button>
