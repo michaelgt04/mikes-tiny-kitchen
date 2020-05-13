@@ -59,9 +59,9 @@ const Blog = props => {
             >
               <button
                 onClick={() => navigate(`/blog/${pageInfo.fields.slug}`)}
-                className="flex mb-4 md:mb-0 align-center rounded overflow-hidden shadow-lg"
+                className="w-100 flex mb-4 md:mb-0 align-center rounded overflow-hidden shadow-lg"
               >
-                <div>
+                <div className="w-100">
                   <img src={pageInfo.frontmatter.image} alt="" />
                   <div className="p-4">
                     <h4 className="font-bold mb-2">
