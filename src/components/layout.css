@@ -60,6 +60,11 @@ input {
   @apply font-black text-2xl mb-4;
 }
 
+.blog-post h4 {
+  color: theme("colors.gray.900");
+  @apply font-black text-xl mb-3;
+}
+
 .blog-post ul > li {
   color: theme("colors.gray.900");
   @apply font-bold text-base mb-1;
