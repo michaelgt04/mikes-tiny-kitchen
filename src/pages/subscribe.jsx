@@ -1,7 +1,5 @@
 import React from "react"
 
-import { navigate } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Subscribe from "../components/subscribe"

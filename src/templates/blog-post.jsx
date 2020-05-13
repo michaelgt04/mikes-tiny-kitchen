@@ -8,7 +8,6 @@ import Subscribe from "../components/subscribe"
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -20,7 +19,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1 className="title-font">{post.frontmatter.title}</h1>
         </header>
-        <img src={post.frontmatter.fullImage} />
+        <img alt="" src={post.frontmatter.fullImage} />
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className="max-w-lg mx-auto my-12 bg-gray-100 p-6">
           <p className="body-font mb-4">
