@@ -3,8 +3,8 @@ title: Rice
 type: technique
 date: "2015-05-01T22:12:03.284Z"
 description: "Get flavor, not mush"
-image: "https://res.cloudinary.com/duor0bzmo/image/upload/c_scale,w_512/v1586827687/mikestinykitchen/rice.jpg"
-fullImage: "https://res.cloudinary.com/duor0bzmo/image/upload/c_scale,w_1024/v1586827687/mikestinykitchen/rice.jpg"
+image: "https://res.cloudinary.com/duor0bzmo/image/upload/c_scale,w_512/v1589330640/mikestinykitchen/rice.jpg"
+fullImage: "https://res.cloudinary.com/duor0bzmo/image/upload/c_scale,w_1024/v1589330640/mikestinykitchen/rice.jpg"
 ---
 
 There is no such thing as the ultimate version of rice. I love rice that's super
